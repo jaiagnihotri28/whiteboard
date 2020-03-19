@@ -39,6 +39,6 @@ io.on('connection',function(socket){
 })
 const port = process.env.PORT||3000
 
-server.listen(3000,function(req,res){
+server.listen(port,function(req,res){
     console.log("server is listening 3000")
 })
